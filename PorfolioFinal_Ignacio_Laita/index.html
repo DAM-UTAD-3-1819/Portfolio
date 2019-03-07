@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+
+
+
+<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+
+  
+</head>
+
+<body>
+
+  <html>
+
+
+
+<body class="text-center">
+  <div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="toggled" >
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="">Nacho Laita</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <div class="container">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#info">Info</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contactar">Contactar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div>
+      <div class="container">
+        <ul class="nav-side">
+
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contactar">Contactar</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+ 
+      <section id="inicio" class="jumbotron vertical-centre bgd shadow" data-speed="5" data-type="background">
+        <div class="container">
+          <h1>Bienvenido al portfolio de <br> Nacho Laita</h1>
+          <h3>Algunos links</h3>
+          <p>
+            <a href="" title="Twitter" class="btn btn-default btn-lg">
+              <i class="fab fa-twitter"></i> @Twitter
+            </a>
+            <a href="" title="LinkedIn" class="btn btn-default btn-lg">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="" title="GitHub" class="btn btn-default btn-lg">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </p>
+        </div>
+
+      </section>
+
+
+      <section id="info">
+        <div class="container">
+
+          <div class="col-sm-12">
+            <h1 class="page-header">Lorem ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, enim at varius maximus, augue quam ullamcorper tortor, vel consequat nibh massa eu enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+              Curae; Integer molestie in massa in vehicula. Nullam id risus a velit vulputate egestas vitae interdum massa. Duis id facilisis nibh. Praesent ac sem in est blandit tincidunt. Morbi finibus, turpis dignissim accumsan dictum, est nunc interdum
+              augue, id ultricies velit sem sed metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sagittis lectus in dolor efficitur tincidunt. Etiam ullamcorper vestibulum rhoncus.</p>
+          </div>
+        </div>
+      </section>
+
+ 
+      <section id="portfolio" class="bgd shadow" >
+        <div class="container">
+          <h1 class="page-header">Portfolio</h1>
+          <h3>Proyectos</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img />
+                <p><strong>Proyecto 1</strong></p>
+                <p>Descripcion</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img />
+                <p><strong>Proyecto 2</strong></p>
+                <p>Descripcion</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img />
+                <p><strong>Proyecto 3</strong></p>
+                <p>Descripcion</p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="contactar">
+        <div class="container">
+          <h1 class="page-header">¡Escribeme!</h1>
+          <h3>Deja tu mensaje</h3>
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Contactar</p>
+              <p><i class="glyphicon glyphicon-map-marker"></i> Madrid, España</p>
+              <p><i class="glyphicon glyphicon-phone"></i> +66 666 66 66 66</p>
+              <p><i class="glyphicon glyphicon-envelope"></i> correo@falso.com</p>
+            </div>
+            <div class="col-sm-7">
+              <form role="form" id="contact-form">
+                <div class="row">
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5"></textarea>
+                </div>
+                <button id="form-submit" class="btn btn-success btn-md pull-right" type="submit">Enviar</button>
+                <div id="form-feedback" class="pull-right text-right">Mensaje enviado
+                  <br><small>(no es real, solo es una demostracion)</small></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="container-fluid">
+        <a class="top" href="#inicio">
+          <p><i class="glyphicon glyphicon-chevron-up"></i>
+            <br>Vuelta arriba</p>
+        </a>
+        <small>El Copyright y todas esas cosas reservadas por Nacho Laita
+    </small>
+      </footer>
+      </div>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
